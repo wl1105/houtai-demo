@@ -15,6 +15,7 @@ export const Main = styled.section.attrs({
   className: 'aa'
 })`
 background-color:#eee;
+padding:20px;
 img {
   height: 30px;
 }

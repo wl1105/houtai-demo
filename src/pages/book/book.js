@@ -46,7 +46,7 @@ class Book extends React.Component {
           <Button type="primary" icon="search" onClick={this.buttonClick}>搜索</Button>
         </Top>
         <Main>
-          <Table rowKey="bookId" dataSource={this.state.list} columns={columns} />
+          <Table rowKey="bookId" dataSource={this.state.list} columns={columns} pagination={{defaultPageSize:1}}/>
         </Main>
       </Container>
     )
