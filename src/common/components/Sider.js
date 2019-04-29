@@ -17,7 +17,7 @@ class Sider extends React.Component {
       }}
       >
         <div className="logo" />
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>
+        <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
           {
             this.state.list.map((item, index) => {
               return (

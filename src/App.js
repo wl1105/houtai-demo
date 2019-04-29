@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from 'antd';
 import Sider from './common/components/Sider.js';
 import Header from './common/components/Header.js';
-import { BrowserRouter, Route, NavLink, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import Book from './pages/book/book.js';
 import User from './pages/user/user.js';
 
