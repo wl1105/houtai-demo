@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 import Sider from './common/components/Sider.js';
 import Header from './common/components/Header.js';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
-import Book from './pages/book/book.js';
+import Book from './pages/book/container.js';
 import User from './pages/user/user.js';
 
 const {
