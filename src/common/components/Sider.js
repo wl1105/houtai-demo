@@ -7,7 +7,7 @@ class Sider extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      list: store.getState().books
+      list: store.getState().commons
     }
   }
   render() {
