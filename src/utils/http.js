@@ -14,8 +14,7 @@ http.defaults.timeout = 10000
 
 // 响应拦截
 http.interceptors.response.use(res => {
-  let result = res.data     //axios请求成功数据在res.data里，这样是为了让和jquery保持一致，直接res
-  return result
+  return res.data
 })
 
 // 暴露

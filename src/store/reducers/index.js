@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import book from './book.js';  
-import user from './user.js';
+import book from '@/pages/book/store/reducer';  
+import common from '@/common/store/common';
 
 export default combineReducers({
-  books: book, 
-  users: user    
+  commons:common,
+  books: book 
 })
